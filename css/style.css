@@ -1,0 +1,136 @@
+/* style.css */
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background: #ffffff;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-family:  "Inconsolata", "menlo", monospaced;
+	line-height: 160%;
+}
+
+h1, h2, h3, h4 ,h5 {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
+button {
+	background: #fff;
+	font-family:  "menlo", monospaced;
+	margin-bottom: 16px;
+	background: red;
+}
+
+*{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important; }
+*:focus, *:active {
+	outline: none !important;
+}
+p.sub {
+	font-size: 0.8rem;
+}
+
+img.intro_img {
+	margin: 20px 0;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+
+
+.layer-moon {
+	/* overflow: hidden; */
+	position: absolute;
+
+	
+	left: 20%;
+}
+
+.layer-moon img {
+	width: 100%;
+}
+
+
+
+
+label, input, button {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+input[type="text"], #mce-EMAIL {
+
+	padding: 10px;
+	border: none;
+
+	corner-radius: 0;
+	border-radius: 0;
+	transition: border 0.3s;
+	width: 62%;
+	height: 24px;
+	background: #fafafa;
+
+	-webkit-box-shadow: inset 0px -2px 0px 0px #c9c9c9;
+	-moz-box-shadow: inset 0px -2px 0px 0px #c9c9c9;
+	box-shadow: inset 0px -2px 0px 0px #c9c9c9;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus,
+#mce-EMAIL:focus,
+#mce-EMAIL.focus {
+	outline: none;
+	outline: 0;
+
+	-webkit-box-shadow: inset 0px -2px 0px 0px #333;
+	-moz-box-shadow: inset 0px -2px 0px 0px #333;
+	box-shadow: inset 0px -2px 0px 0px #333;
+}
+
+input[type="submit"],
+#mc-embedded-subscribe {
+	margin: 12px 12px;
+	padding: 8px 20px;
+	height: 26px;
+	max-height: 26px;
+
+	position: relative;
+	border: 0;
+	border-radius: 3px;
+	outline: none;
+
+	font-weight: 600;
+
+	background: none;
+	cursor: pointer;
+	display: inline-block;
+	
+	text-transform: uppercase;
+	letter-spacing: 1px;				
+
+	background: #333;
+	color: #fff;
+}
+
+
+ul.slick-dots li {
+	margin-left: 0;
+	margin-right: 0;
+	width: 12px;
+}
+
+ul.slick-dots button {
+}
